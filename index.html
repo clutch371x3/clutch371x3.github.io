@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" href="/icon.png">
+
+
+    <!--    PLACEHOLDER, actual origin trial gets set by script.js    -->
+    <!--    the specific trial used in this script will not work on any other website    -->
+    <meta http-equiv="origin-trial" content="">
+    <!--    to host this yourself, contact @bypassi on discord    -->
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="a securly-disabling exploit by akabutnice and bypassi.">
+    <meta name="keywords" content="protozoa, exploit, disable, securly, unblock">
+
+    <meta property="og:title" content="protozoa">
+    <meta property="og:description" content="a securly-disabling exploit by akabutnice and bypassi.">
+    <meta property="og:type" content="website">
+
+    <title>protozoa</title>
+</head>
+<body>
+
+    <main>
+        <h1>protozoa</h1>
+
+        <div class="g">
+            <div class="c">
+                <button id="normal">Soft Disable</button>
+                <p>Kills Securly for the entirety of your current session.</p>
+            </div>
+            <div class="c">
+                <button id="perma">Hard Disable</button>
+                <p>This option can brick Securly across sessions.</p>
+                <b>requires a &le;30 minute wait</b>
+            </div>
+
+            <div class="c">
+                <button id="undo">Undo Hard Disable</button>
+                <p>Undoes any active hard disable.</p>
+                <b>requires a &le;30 minute wait</b>
+            </div>
+        </div>
+        <footer class="sc">
+            <p>Created by <span>akabutnice</span> &amp; <span>bypassi</span></p>
+        </footer>
+    </main>
+
+    <dialog id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modal-title" class="modal-title"></h2>
+            <p id="modal-desc"></p>
+            <b id="modal-badge" hidden></b>
+            <div class="modal-actions">
+                <button id="modal-cancel" class="btn-secondary"></button>
+                <button id="modal-confirm"></button>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="./jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
