@@ -52,7 +52,7 @@ async function exp(mode, attempts = 20, force = false) {
 
     // ⚠️ This token will only work on this origin
     meta.httpEquiv = "origin-trial";
-    meta.content = "A1Ue+gBqxU25mPge/YNEhfLOvsLbUMc0B/x9tKOoj1XCuc7R3UMiExCHw6yIYuRI6V34NQ1Yx4SSXJAL5dSH864AAABteyJvcmlnaW4iOiJodHRwczovL3Byb3Rvem9hLm9yZzo0NDMiLCJmZWF0dXJlIjoiSW5saW5lQ29udGVudFNjcmlwdHMiLCJleHBpcnkiOjQxMDI0NjI4MDAsImlzU3ViZG9tYWluIjp0cnVlfQ==";
+    meta.content = "[PUT YOUR OWN TOKEN HERE!!!!!! YOU ARE SKID IF YOU LEAVE THIS]";
 
     let warmup = { chrome: { app: null } };
     warmup.__proto__ = window.__proto__;
