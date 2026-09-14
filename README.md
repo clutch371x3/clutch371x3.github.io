@@ -1,5 +1,5 @@
 # OpenProtozoa
-Open source Protozoa exploit for Securly
+Open source Protozoa exploit for Securly. <br>
 Full credit to Bypassi and akabutnice for this exploit. Credit to me for writing the guide.
 
 # Usage Instructions
@@ -19,8 +19,8 @@ First, you would need to obtain a token to the origin trial.
 4. Locate the specific experimental browser API you need to test (for example, the feature from your initial string was `InlineContentScripts`).
 5. Click the Register button next to that feature.
 6. Fill out the registration details.
-   a. Web Origin: Enter your full website URL, including the protocol (e.g., https://yourdomain.com or https://github.io). It must use HTTPS.
-   b. Subdomain Match (Optional): Check this box if you need the feature to work on varying subdomains (e.g., ://yourdomain.com). NOTE: Note: If you are using a free domain like github.io or pages.dev, leave this box unchecked or Google will reject it.
+   a. Web Origin: Enter your full website URL, including the protocol (e.g., https://yourdomain.com or https://github.io). It must use HTTPS. <br>
+   b. Subdomain Match (Optional): Check this box if you need the feature to work on varying subdomains (e.g., ://yourdomain.com). NOTE: If you are using a free domain like github.io or pages.dev, leave this box unchecked or Google will reject it. <br>
    c. Third-Party (Optional): Only check this if your script is being injected into other people's websites. For your own site, leave it blank.
 7. Your unique Base64 string is generated immediately. Put it into your index.html.
 
