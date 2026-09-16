@@ -16,7 +16,7 @@ First, you would need to obtain a token to the origin trial.
 1. Open Google Chrome and head over to the Chrome Origin Trials Portal.
 2. Click Sign In in the top right corner and log in using any standard Google account.
 3. Scroll through the list of Active Trials on the dashboard.
-4. Locate the specific experimental browser API you need to test (for example, the feature from your initial string was `InlineContentScripts`).
+4. Locate the specific experimental browser API you need to test.
 5. Click the Register button next to that feature.
 6. Fill out the registration details. <br>
    a. Web Origin: Enter your full website URL, including the protocol (e.g., https://yourdomain.com or https://github.io). It must use HTTPS. <br>
