@@ -18,7 +18,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url("/digital-native.png") center/cover;
+    background: url("/download.png") center/cover;
     opacity: .15;
     pointer-events: none;
 }
