@@ -14,6 +14,8 @@ async function getCorrectId(force = false) {
         "ckecmkbnoanpgplccmnoikfmpcdladkc",
         "kfiocjonplkilcjfgabfngiddebalkod",
         "bmlalgfmolfmkjmnikbphgijefopggme",
+        "gbhhiekfabngbhhjjlgdaehineepennk:,
+        "haldlgldplgnggkjaafhelgiaglafanh",
     ];
 
     if (force) return ids[0];
@@ -52,7 +54,7 @@ async function exp(mode, attempts = 20, force = false) {
 
     // ⚠️ This token will only work on this origin
     meta.httpEquiv = "origin-trial";
-    meta.content = "[PUT YOUR OWN TOKEN HERE!!!!!! YOU ARE SKID IF YOU LEAVE THIS]";
+    meta.content = "[AgiNgnUmgeWo+Jx5y7ovlrDAsawNR1u8gx0u/+sZ2+v8ioz5fSvC/+RzxMQQUVax5tRBYGxnv6AjsH9VdqM02gQAAABdeyJvcmlnaW4iOiJodHRwczovL2NsdXRjaDM3MXgzLmdpdGh1Yi5pbzo0NDMiLCJmZWF0dXJlIjoiSW5zdGFsbEVsZW1lbnQiLCJleHBpcnkiOjE3OTEyNDQ4MDB9]";
 
     let warmup = { chrome: { app: null } };
     warmup.__proto__ = window.__proto__;
