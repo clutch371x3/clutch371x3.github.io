@@ -14,8 +14,9 @@ async function getCorrectId(force = false) {
         "ckecmkbnoanpgplccmnoikfmpcdladkc",
         "kfiocjonplkilcjfgabfngiddebalkod",
         "bmlalgfmolfmkjmnikbphgijefopggme",
-        "gbhhiekfabngbhhjjlgdaehineepennk:,
+        "gbhhiekfabngbhhjjlgdaehineepennk",
         "haldlgldplgnggkjaafhelgiaglafanh",
+        
     ];
 
     if (force) return ids[0];
